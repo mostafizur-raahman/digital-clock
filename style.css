@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to left,rgb(212, 38, 119),rgb(13, 209, 111));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.clock{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.clock div {
+    background-color: aliceblue;
+    height: 80px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-radius: 7px;
+    box-shadow: 0 20px 30px rgb(31, 29, 30);
+}
+.clock span{
+    font-weight: bolder;
+    font-size: 50px;
+    color: aliceblue;
+
+}
+.heading{
+    color: aliceblue;
+    font-size: 65px;
+}
